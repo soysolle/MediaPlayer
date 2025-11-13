@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# 환경 변수 파일
+.env
+
+# 로그 파일
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 운영 체제 및 에디터별 임시 파일
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code 설정 파일
+.vscode/
+
+# Jest 테스트 결과 파일
+coverage/
+
+# 빌드 결과물 (TS 또는 Babel 사용 시)
+dist/
+build/
+
+# 캐시 파일
+.cache/
+
+# PM2 프로세스 파일
+.pids
+
+# 디버그 파일
+*.swp
+*.swo
+
+.gitmessage.txt

@@ -1,0 +1,116 @@
+/* Account.css */
+
+/* 전체 컨테이너 스타일 */
+.account-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* 가로 중앙 정렬 */
+	justify-content: center; /* 세로 중앙 정렬 */
+	height: 100vh; /* 화면 높이를 채우도록 설정 */
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #000;
+	color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 1200px;
+	position: relative; /* 자식 요소의 위치를 상대적으로 설정 */
+}
+
+/* 로고 이미지 스타일 */
+.logo {
+	width: 50%; /* 로고 너비 확대 */
+	height: auto;
+	margin-bottom: 40px; /* 아래 여백 추가 */
+}
+
+/* 섹션 제목 스타일 (숨김) */
+.section-title {
+	display: none; /* 텍스트 숨기기 */
+}
+
+/* 에러 메시지 스타일 (숨김) */
+.error-message {
+	display: none; /* 텍스트 숨기기 */
+}
+
+/* 사용자 리스트 스타일 */
+.user-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+	width: 100%;
+}
+
+/* 개별 사용자 항목 스타일 */
+.user-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+}
+
+/* 삭제 버튼 스타일 */
+.delete-button {
+	background-color: #ff4d4d;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+/* 폼 컨테이너 스타일 */
+.form-container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 100%;
+	align-items: center; /* 자식 요소 가로 중앙 정렬 */
+}
+
+/* 입력 필드 스타일 */
+.input-field {
+	width: 100%;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+/* 회원가입 버튼 스타일 */
+.signup-button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px;
+	font-size: 1rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	align-self: center;
+	width: 10%; /* 버튼 너비 설정 */
+}
+
+/* 회원가입 버튼 Hover 스타일 */
+.signup-button:hover {
+	background-color: #45a049;
+}
+
+
+/* '사용량' 버튼 스타일 */
+.usage-button {
+	position: absolute; /* 부모 요소에 상대적으로 위치 */
+	top: 30px; /* 상단 여백 */
+	left: 10px; /* 좌측 여백 */
+	background-color: #007bff; /* 파란색 배경 */
+	color: white;
+	padding: 1px 1px;
+	font-size: 1.5rem; /* 작은 글꼴 크기 */
+	border: none;
+	border-radius: 5px;
+	transform: scale(0.6); /* 전체 크기 축소 */
+	transform-origin: top left; /* 크기 축소 기준점 설정 */
+}

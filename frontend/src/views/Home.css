@@ -1,0 +1,24 @@
+/* '사용량' 버튼 Hover 스타일 */
+.usage-button:hover {
+	background-color: #0056b3; /* Hover 시 진한 파란색 */
+}
+
+/* '로그아웃' 버튼 스타일 */
+.logout-button {
+	position: absolute; /* 부모 컨테이너에 상대적으로 위치 */
+	top: 30px; /* 상단 여백 */
+	right: 10px; /* 오른쪽 여백 */
+	background-color: #dc3545; /* 빨간색 배경 */
+	color: white;
+	padding: 1px 1px; /* 내부 여백 */
+	font-size: 1.5rem; /* 글꼴 크기 */
+	border: none;
+	border-radius: 5px; /* 둥근 모서리 */
+	cursor: pointer;
+	transform: scale(0.6); /* 전체 크기 축소 */
+	transform-origin: top right; /* 크기 축소 기준점 설정 */
+}
+
+.logout-button:hover {
+	background-color: #c82333; /* Hover 시 더 어두운 빨간색 */
+}
